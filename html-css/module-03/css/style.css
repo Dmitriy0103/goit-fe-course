@@ -1,38 +1,77 @@
-ul li{
-    display: inline-block;
-    text-transform: uppercase;
-    list-style-type: none;
-    font-size: 14px;
-    font-family: "Myriad Pro";
+html{
+    box-sizing: border-box;
 }
-.lif{
-    color: #03a9f4;
-    margin-left: 321px;
-    text-decoration: none;
-    margin-top: 77px;
-}
-.pho{
-    margin-left: 135px;
-    margin-top: 77px;
-    text-decoration: none;
-    color: #626262;
-}
-.mu{
-    margin-left: 114px;
-    margin-top: 77px;
-    text-decoration: none;
-    color: #626262;
-}
-.trav{
-    margin-left: 102px;
-    margin-top: 77px;
-    text-decoration: none;
-    color: #626262;
-}
-.img1{
-    margin-left: 150px;
-    margin-right: 631px;
-    margin-top: 106px;
-    padding-bottom: 500px;
-    display: inline-block;
-}
+*, *::before,
+ *::after {
+     box-sizing: initial;
+    }
+    ul{
+        width: 900px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu li{
+        margin-right: 110px;
+    }
+    ul li{
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: 'Playfair Display', serif;
+        margin-top: 77px;
+    }
+    a{
+        text-decoration: none;
+        color: #626262;
+    }
+    ul li a:hover{
+        color: #03a9f4;
+    }
+    section article{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 420px;
+        margin-top: 104px;
+    }
+    main{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .wrapper{
+        margin-left: 55px;
+        margin-right: 0px;
+    }
+    .lifestyle{
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(180, 173, 158);
+        text-transform: uppercase;
+    }
+    h3{
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(98, 98, 98);
+    }
+    .Lorem{
+        font-size: 14px;
+        font-family: 'Playfair Display', serif;
+        color: rgb(98, 98, 98);
+        line-height: 24px;
+      }
+      div{
+          display: block;
+          text-align: center;
+      }
+    .border{
+        margin-top: 58px;
+        margin-bottom: 71px;
+        padding: 21px 34px 21px 34px;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+    .box.border{
+        border-width: 1px;
+        border-color:#626262;
+        border-style: solid;
+      }
+      

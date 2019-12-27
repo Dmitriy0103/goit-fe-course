@@ -5,9 +5,16 @@ html{
  *::after {
      box-sizing: initial;
     }
-    ul{
+    .conteiner{
         width: 900px;
         margin: 0 auto;
+    }
+    .padding{
+        padding-top: 77px;
+        padding-bottom: 104px;
+    }
+    .menu{
+        margin: 0;
         text-align: center;
     }
     .menu li{
@@ -18,7 +25,10 @@ html{
         text-transform: uppercase;
         font-size: 14px;
         font-family: 'Playfair Display', serif;
-        margin-top: 77px;
+        margin-right: 110px;
+    }
+    .menu li:last-child{
+        margin-right: 0;
     }
     a{
         text-decoration: none;
@@ -31,26 +41,24 @@ html{
         box-sizing: border-box;
         display: inline-block;
         width: 420px;
-        margin-top: 104px;
-    }
-    main{
-        width: 900px;
-        margin: 0 auto;
     }
     .wrapper{
-        margin-left: 55px;
-        margin-right: 0px;
+        margin-right: 56px;
     }
     .lifestyle{
         font-size: 14px;
         font-family: 'Ubuntu', sans-serif;
         color: rgb(180, 173, 158);
         text-transform: uppercase;
+        margin: 0;
+        line-height: 32px;
     }
     h3{
         font-size: 30px;
         font-family: 'Playfair Display', serif;
         color: rgb(98, 98, 98);
+        margin: 0;
+        line-height: 30px;
     }
     .Lorem{
         font-size: 14px;
@@ -58,20 +66,20 @@ html{
         color: rgb(98, 98, 98);
         line-height: 24px;
       }
-      div{
-          display: block;
-          text-align: center;
+      .ipsum{
+          margin-bottom: 135px;
       }
     .border{
-        margin-top: 58px;
-        margin-bottom: 71px;
+        margin:0 auto;
+        width:162px;
+        display: block;
         padding: 21px 34px 21px 34px;
         font-size: 20px;
         font-family: 'Playfair Display', serif;
-    }
-    .box.border{
         border-width: 1px;
         border-color:#626262;
         border-style: solid;
-      }
-      
+    }
+    .border:hover{
+        color: #03a9f4;
+    }

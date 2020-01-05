@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .clearfix::after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .box{
+        line-height: 70px;
+    }
+    .wrapper{
+        width: 1170px;
+    }
+    .logo{
+        float: left;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        color: #555252;
+    }
+    nav ul li{
+        float: left;
+        list-style: none;
+        margin-right: 35px;
+    }
+    .menu li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: #0f0101;
+    }
+    .nav{
+        float: right;
+    }
+    .logo:first-letter{
+        color: #1abc9c;
+        font-weight: bold;
+    }
+    .menu li:last-child{
+        margin-right: 0;
+    }
+    ul li a:hover{
+        color: #1abc9c;
+    }
+    .featured{
+        font-size: 48px;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(81, 81, 81);
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 114px;
+        margin-bottom: 92px;
+    }
+    .featured::after{
+        content: '';
+        position: absolute;
+        width: 160px;
+        height: 8px;
+        top: 175px;
+        right: calc(50% - 74px);
+        background-color: #1abc9c;
+    }
+    .color{
+        background-color: #e9f0fd;
+        margin: 0;
+        padding: 0;
+
+    }
+    .boxing{
+        float: left;
+        margin-right: 12px;
+        margin-bottom: 30px;
+        margin-left: 23px;
+        width: 255px;
+        height: 322px;
+    }
+    section article:nth-child(4n){
+        margin-right: 0;
+    }
+    .box-description{
+        float: left;
+        display: block;
+        width: 200px;
+        height: 40px;
+        background-color: #323232;
+        color: #ffffff;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .box-price{
+        float: left;
+        display: block;
+        width: 55px;
+        height: 40px;
+        background-color: #8c8c8c;
+        color: #ffffff;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .box-description:hover{
+        background-color: #1abc9c;
+    }
+    .box-price:hover{
+        background-color: #7fd9c7;
+    }
+    .latest{
+            font-size: 48px;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(81, 81, 81);
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 114px;
+            margin-bottom: 92px;
+    }
+  .latest::after{
+        content: '';
+        position: absolute;
+        width: 160px;
+        height: 8px;
+        top: 1085px;
+        right: calc(50% - 78px);
+        background-color: #1abc9c;
+    }
+    .box-content{
+        width: 350px;
+        height: 494px;
+        display: block;
+        float: left;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .box-content1{
+        width: 350px;
+        height: 494px;
+        display: block;
+        float: left;
+        margin-right: 40px;
+    }
+    ul li:last-child{
+        margin-right: 0;
+    }
+    .lorem{
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        color: #555252;
+        font-weight: bold;
+        line-height: 25px;
+    }
+    .lorem::after{
+        content: '';
+        width: 136px;
+        height: 3px;
+        background-color: #1abc9c;
+        right: calc(50% - 74px);
+        margin-bottom: 30px;
+        margin-top: 12px;
+    }
+    .nam-nec{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(85, 82, 82);
+    margin-bottom: 18px;
+    }
+.read-more{
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(255, 255, 255);
+        background-color: #4ec6ab;
+        text-align: center;
+        padding: 20px 42px;
+        margin-bottom: 82px;
+        line-height: 24px;
+        border-radius: 3px;
+}
+button:hover{
+    background-color: #1abc9c;
+}

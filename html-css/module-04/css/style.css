@@ -90,6 +90,9 @@
     section article:nth-child(4n){
         margin-right: 0;
     }
+    section article:nth-child(n+6){
+        margin-bottom: 0;
+    }
     .box-description{
         float: left;
         display: block;
@@ -126,7 +129,7 @@
             color: rgb(81, 81, 81);
             text-transform: uppercase;
             text-align: center;
-            line-height: 114px;
+            line-height: 184px;
             margin-bottom: 92px;
     }
   .latest::after{

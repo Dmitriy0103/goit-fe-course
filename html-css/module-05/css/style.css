@@ -93,7 +93,7 @@ li a:hover{
    transform: translate(-625%,-86%);
     width: 26px;
     height: 24px;
-    border: 1px solid rgb(255, 255, 255);
+color: rgb(255, 255, 255) ;
 }
 .svg:hover{
     background-color: #55a18f;
@@ -110,7 +110,7 @@ li a:hover{
     transform: translate(+530%,-86%);
     width: 26px;
     height: 24px;
-    border: 1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
 }
 .svg1:hover{
     background-color: #55a18f;

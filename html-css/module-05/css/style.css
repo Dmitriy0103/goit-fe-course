@@ -67,8 +67,9 @@ li a:hover{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-    top: 220px;
-    left: 435px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-56%,-220%);
 }
 .sity{
     position: absolute;
@@ -77,8 +78,9 @@ li a:hover{
     line-height: 54px;
     color: #ffffff;
     text-transform: uppercase;
-    top: 320px;
-    right: 756px;
+    top: 50%;
+   left: 50%;
+   transform: translate(-87%,-87%);
 }
 .svg{
     position: absolute;
@@ -86,8 +88,9 @@ li a:hover{
     font-size: 100px;
     font-family: "Pe";
     text-transform: uppercase;
-    bottom: 226px;
-    left: 288px;
+    top: 50%;
+   left: 50%;
+   transform: translate(-625%,-86%);
     width: 26px;
     height: 24px;
     border: 1px solid rgb(255, 255, 255);
@@ -102,8 +105,9 @@ li a:hover{
     font-family: "Pe";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    bottom: 226px;
-    right: 288px;
+    top: 50%;
+    left: 50%;
+    transform: translate(+530%,-86%);
     width: 26px;
     height: 24px;
     border: 1px solid rgb(255, 255, 255);

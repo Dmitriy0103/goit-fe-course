@@ -43,23 +43,6 @@ body{
 li a:hover{
     color: #1abc9c;
 }
-.photo{
-    position: absolute;
-    height: 600px;
-    width: 100%;
-    display:block;
-}
-.slider{
-    position: relative;
-    height: 600px;
-}
-.mat{
-    background-color: rgba(0, 0, 2, 52%);
-    position: absolute;
-    height: 600px;
-    width: 100%;
-    margin: 0;
-}
 .affordable{
     display: block;
     position: absolute;
@@ -67,9 +50,22 @@ li a:hover{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-   top: 50%;
-   left: 50%;
-   transform: translate(-56%,-220%);
+     top: 50%;
+    left: 50%;
+    transform: translate(-56%,-220%);
+}
+.div{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 2);
+    opacity: 0;
+}
+.quotes{
+    position: relative;
+}
+.quotes:hover.div{
+    opacity: 0.522;
 }
 .sity{
     position: absolute;

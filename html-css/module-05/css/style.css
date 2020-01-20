@@ -7,6 +7,7 @@ body{
     display:inline-block;
     padding-top: 38px;
     padding-bottom: 32px;
+    margin-right: 20px;
 }
 .menu{
     margin: 0;
@@ -17,7 +18,6 @@ body{
 .navigation{
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 20px;
     color:#0f0101;
     font-size: 14px;
     font-family: "OpenSans";
@@ -63,10 +63,12 @@ li a:hover{
 }
 .quotes{
     position: relative;
+    height: 600px;
 }
-.quotes:hover.div{
-    opacity: 0.522;
+.quotes:hover .div {
+   opacity: 0.522;
 }
+
 .sity{
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -79,22 +81,35 @@ li a:hover{
    transform: translate(-87%,-87%);
 }
 .svg{
+    background-image: url(/img/svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
     position: absolute;
     padding: 30px;
     font-size: 100px;
     font-family: "Pe";
     text-transform: uppercase;
     top: 50%;
-   left: 50%;
-   transform: translate(-625%,-86%);
-    width: 26px;
-    height: 24px;
-color: rgb(255, 255, 255) ;
+    left: 50%;
+    transform: translate(-540%,-86%);
+    width: 104px;
+    height: 104px;
+    color: rgb(255, 255, 255) ;
+    border: none;
 }
 .svg:hover{
     background-color: #55a18f;
 }
 .svg1{
+    background-image: url(/img/svg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
     position: absolute;
     padding: 30px;
     font-size: 100px;
@@ -103,10 +118,11 @@ color: rgb(255, 255, 255) ;
     text-transform: uppercase;
     top: 50%;
     left: 50%;
-    transform: translate(+530%,-86%);
-    width: 26px;
-    height: 24px;
+    transform: translate(+420%,-86%);
+    width: 104px;
+    height: 104px;
     color:rgb(255, 255, 255);
+    border: none;
 }
 .svg1:hover{
     background-color: #55a18f;
@@ -140,23 +156,33 @@ color: rgb(255, 255, 255) ;
     right: calc(50% - 80px);
     background-color: #1abc9c;
 }
-.boxing{
+.section{
     display: inline-block;
     margin-right: 30px;
     position: relative;
-    padding-bottom: 100px;
 }
-.boxing:nth-child(5n){
+.div-boxing{
+    position: relative;
+}
+.substrate{
+    position: absolute;
+    width: 236px;
+    height: 262px;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+}
+.div-boxing:hover .substrate {
+    opacity: 0.55;
+}
+.section:nth-child(5n){
     margin-right: 0;
 }
 img {
     display: block;
     width: 100%;
     height: auto;
-}
-.color{
-    background-color: #e9f0fd;
-    margin: 0;
 }
 .box-description{
     display: block;
@@ -188,30 +214,36 @@ img {
     top: 282px;
     right: 0;
 }
-.boxing:hover .box-description{
+.div-boxing:hover .box-description {
     background-color: #1abc9c;
 }
-.boxing:hover .box-price{
+.div-boxing:hover .box-price{
     background-color: #7fd9c7;
 }
-.substrate{
+.add{
     display: block;
     position: absolute;
-    width: 236px;
-    height: 262px;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(0, 0, 0, 55%);
+    top: 19px;
+    left: 58px;
+    text-transform: uppercase;
+}
+.img{
+    border-style: none;
 }
 .slide-svg1{
+    background-image: url(/img/nomber1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    cursor: pointer;
     position: absolute;
     font-size: 1px;
     font-family: "Pe";
     text-transform: uppercase;
     top: 90px;
-    width: 26px;
-    height: 24px;
-    left: 32px;
+    width: 55px;
+    height: 55px;
+    left: 22px;
     border: 1px solid rgb(255, 255, 255);
     padding: 15px;
 }
@@ -219,15 +251,20 @@ img {
     background-color: #1abc9c;
 }
 .slide-svg2{
+    background-image: url(/img/nomber2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    cursor: pointer;
     position: absolute;
     font-size: 1px;
     font-family: "Pe";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     top: 90px;
-    width: 26px;
-    height: 24px;
-    left: 100px;
+    width: 55px;
+    height: 55px;
+    left: 90px;
     border: 1px solid rgb(255, 255, 255);
     padding: 15px;
 }
@@ -235,15 +272,20 @@ img {
     background-color: #1abc9c;
 }
 .slide-svg3{
+    background-image: url(/img/nomber3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    cursor: pointer;
     position: absolute;
     font-size: 100px;
     font-family: "Pe";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     top: 90px;
-    width: 26px;
-    height: 24px;
-    left: 168px;
+    width: 55px;
+    height: 55px;
+    left: 158px;
     border: 1px solid rgb(255, 255, 255);
     padding: 15px;
 }
@@ -251,20 +293,26 @@ img {
     background-color: #1abc9c;
 }
 .slide-svg4{
+    background-image: url(/img/nomber4.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: block;
+    cursor: pointer;
     position: absolute;
-    font-size: 1px;
-    font-family: "Pe";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
     top: 154px;
-    width: 26px;
-    height: 24px;
-    left: 32px;
+    left: 22px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
-    padding: 15px;
+    width: 192px;
+    height: 52px;
+    background-color: rgb(50, 50, 50);
+    padding-left: 10px;
+    text-transform: uppercase;
 }
 .slide-svg4:hover{
-    background-color: #323232;
+    background-color: #1abc9c;
 }
 .footer{
     background-color: #323232;
@@ -283,4 +331,14 @@ img {
 }
 .themengraph:hover{
     color: #46bfa9;
+}
+.add{
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 58px;
+    text-transform: uppercase;
+}
+.img{
+    border-style: none;
 }

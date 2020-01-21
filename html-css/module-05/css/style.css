@@ -63,7 +63,7 @@ li a:hover{
     position: absolute;
     width: 100%;
     height: 600px;
-    background-color: rgb(0, 0, 2);
+    background-color: rgba(0, 0, 2, .52);
     opacity: 0;
 }
 .quotes{
@@ -71,7 +71,7 @@ li a:hover{
     height: 600px;
 }
 .quotes:hover .div {
-   opacity: 0.522;
+   opacity: 1;
 }
 
 .sity{
@@ -126,7 +126,6 @@ li a:hover{
     transform: translate(+420%,-86%);
     width: 104px;
     height: 104px;
-    color:rgb(255, 255, 255);
     border: none;
 }
 .svg1:hover{
@@ -175,11 +174,13 @@ li a:hover{
     height: 262px;
     top: 10px;
     left: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .55);
     opacity: 0;
+    visibility: hidden;
 }
 .div-boxing:hover .substrate {
-    opacity: 0.55;
+    visibility: visible;
+    opacity: 1;
 }
 .section:nth-child(5n){
     margin-right: 0;
@@ -251,7 +252,7 @@ img {
     left: 22px;
     border: 1px solid rgb(255, 255, 255);
     padding: 15px;
-    background-color: rgb(50, 50, 50,0);
+    background-color: rgb(50, 50, 50);
 }
 .slide-svg1:hover{
     background-color: #1abc9c;
@@ -303,7 +304,7 @@ img {
 .slide-svg4{
     background-image: url(../img/nomber4.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 7%, 50%;
     display: block;
     cursor: pointer;
     position: absolute;

@@ -86,7 +86,7 @@ li a:hover{
    transform: translate(-87%,-87%);
 }
 .svg{
-    background-image: url(img/svg.png);
+    background-image: url(../img/svg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
@@ -109,7 +109,7 @@ li a:hover{
     background-color: #55a18f;
 }
 .svg1{
-    background-image: url(img/svg1.png);
+    background-image: url(../img/svg1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
@@ -236,7 +236,7 @@ img {
     border-style: none;
 }
 .slide-svg1{
-    background-image: url(img/nomber1.png);
+    background-image: url(../img/nomber1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
@@ -257,7 +257,7 @@ img {
     background-color: #1abc9c;
 }
 .slide-svg2{
-    background-image: url(img/nomber2.png);
+    background-image: url(../img/nomber2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
@@ -279,7 +279,7 @@ img {
     background-color: #1abc9c;
 }
 .slide-svg3{
-    background-image: url(img/nomber3.png);
+    background-image: url(../img/nomber3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
@@ -301,7 +301,7 @@ img {
     background-color: #1abc9c;
 }
 .slide-svg4{
-    background-image: url(img/nomber4.png);
+    background-image: url(../img/nomber4.png);
     background-repeat: no-repeat;
     background-position: left;
     display: block;

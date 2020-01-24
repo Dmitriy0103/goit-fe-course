@@ -139,7 +139,7 @@ li a:hover{
 .section-width{
     text-align: center;
     margin: 0;
-    height: 674px;
+    padding-bottom: 100px;
 }
 .new-collection{
     margin: 0;
@@ -174,12 +174,10 @@ li a:hover{
     height: 262px;
     top: 10px;
     left: 10px;
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(0, 0, 0, 0.549);
     opacity: 0;
-    visibility: hidden;
 }
 .div-boxing:hover .substrate {
-    visibility: visible;
     opacity: 1;
 }
 .section:nth-child(5n){
@@ -204,6 +202,7 @@ img {
     font-weight: bold;
     margin: 0;
     top: 282px;
+    line-height: 40px;
 }
 .box-price{
     display: block;
@@ -219,6 +218,7 @@ img {
     margin: 0;
     top: 282px;
     right: 0;
+    line-height: 40px;
 }
 .div-boxing:hover .box-description {
     background-color: #1abc9c;

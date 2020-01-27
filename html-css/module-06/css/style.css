@@ -21,19 +21,20 @@ body{
     display: flex;
     position: relative;
     justify-content: flex-end;
-    width: 1110px;
     text-transform: uppercase;
     margin: 0;
     padding-top: 40px;
     list-style-type: none;
 }
 .after{
-    margin-right: 40px;
+
     text-decoration: none;
     color: #a9e7db;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-
+}
+.nav-menu li{
+    margin-right: 40px;
 }
 .nav-menu a:hover {
     color: #f38181;
@@ -184,10 +185,13 @@ body{
 }
 .cards{
     display: inline-flex;
+    margin-right: 22px;
+}
+.cards:last-child{
+    margin-right: 0;
 }
 .basis{
     position: relative;
-    margin-right: 15px;
     background-color: rgb(149, 225, 211);
     width: 382px;
     height: 472px;
@@ -237,6 +241,9 @@ body{
 .instagram:hover{
     background-color: #95e1d3;
 }
+.substrate li{
+    list-style-type: none;
+}
 .facebook{
     position: absolute;
     background-image: url(../img/facebook.png);
@@ -254,17 +261,18 @@ body{
 }
 .substrate{
     position: absolute;
+    margin: 0;
+    padding: 0;
     width: 382px;
-    height: 472px;
-    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    opacity: 0;
+    height: 473px;
+    background-image: -moz-linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
     transition: opacity 200ms linear,color 200ms linear;
 }
 .basis:hover .substrate {
     transform: translate(-10px,-10px);
-    opacity: 0.9;
+    opacity: 1;
 }
 .cards h4{
     font-size: 14px;
@@ -276,7 +284,7 @@ body{
 .cards p{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    color: rgb(153, 153, 153);
+    color: rgb(27, 0, 0);
     font-style: italic;
     text-align: center;
 }
@@ -284,7 +292,7 @@ body{
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
+    padding-top: 180px;
 }
 .footer p{
     font-size: 14px;
@@ -327,7 +335,7 @@ body{
     display: flex;
     justify-content: flex-end;
 }
- .your-email{
+.your-email{
     font-family: 'Roboto', sans-serif;
     border-style: solid;
     border-width: 1px;
@@ -342,4 +350,3 @@ body{
     padding-top: 12px;
     padding-left: 12px;
   }
-  

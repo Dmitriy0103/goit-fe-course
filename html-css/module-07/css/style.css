@@ -1,0 +1,264 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.width{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+    padding-bottom: 128px;
+}
+.conteiner a{
+    font-size: 26px;
+    font-family: "Myriad Pro";
+    text-decoration: none;
+    color: #fed136;
+}
+.conteiner-menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.conteiner-menu a{
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222222;
+    vertical-align: sub;
+}
+.conteiner-menu li{
+    margin-right: 42px;
+}
+.conteiner-menu li:last-child{
+    margin-right: 0;
+}
+.conteiner-menu a:hover{
+    color: #fed136;
+}
+.services{
+    text-align: center;
+    padding-bottom: 178px;
+}
+.services h2{
+    font-size: 40px;
+    font-family: "Myriad Pro";
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 40px;
+}
+.services p{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: #777777;
+    margin: 0;
+    line-height: 40px;
+}
+.icon-list{
+    display: flex;
+    margin: 0;
+    padding-bottom: 122px;
+    width: 940px;
+}
+.icon{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.icon li{
+    margin-right: 105px;
+}
+.icon li:last-child{
+    margin-right: 0;
+}
+.icon1::before{
+    content: '';
+    position: absolute;
+    background-image: url(../img/icon1.png);
+    background-repeat: no-repeat;
+    border: 3px solid #fed136;
+    background-position: center;
+    border-radius: 35px;
+    width: 38px;
+    height: 38px;
+    bottom: 130px;
+    padding: 14px;
+    left: 90px;
+}
+.icon2::before{
+    content: '';
+    position: absolute;
+    background-image: url(../img/icon2.png);
+    background-repeat: no-repeat;
+    border: 3px solid #fed136;
+    background-position: center;
+    border-radius: 35px;
+    width: 38px;
+    height: 38px;
+    bottom: 130px;
+    padding: 14px;
+    left: 430px;
+}
+.icon3::before{
+    content: '';
+    position: absolute;
+    background-image: url(../img/icon3.png);
+    background-repeat: no-repeat;
+    border: 3px solid #fed136;
+    background-position: center;
+    border-radius: 35px;
+    width: 38px;
+    height: 38px;
+    bottom: 130px;
+    padding: 14px;
+    left: 780px;
+}
+.icon h4{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+}
+.icon p{
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    text-align: center;
+    margin: 0;
+}
+.backgraund{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 678px;
+}
+.backgraund-img{
+    position: absolute;
+    height: 100%;
+    text-align: left;
+    top: 120px;
+    left: 1060px;
+    width: 620px;
+    height: 538px;
+}
+.contact{
+    padding-bottom: 10px;
+}
+.contact h2{
+    font-size: 40px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: absolute;
+    top: 750px;
+    left: 730px;
+}
+.contact p{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(119, 119, 119);
+    position: absolute;
+    top: 830px;
+    left: 730px;
+}
+.name{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 454px;
+    height: 50px;
+    top: 930px;
+    left: 370px;
+}
+.email{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 454px;
+    height: 50px;
+    top: 1020px;
+    left: 370px;
+}
+.subject{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 454px;
+    height: 50px;
+    top: 1110px;
+    left: 370px;
+}
+.your-message{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 450px;
+    height: 226px;
+    top: 930px;
+    left: 864px;
+}
+.send-message{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    text-align: center;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 3px;
+    background-color: rgb(254, 209, 54);
+    position: absolute;
+    width: 240px;
+    height: 66px;
+    top: 1200px;
+    left: 744px;
+}
+  
+  

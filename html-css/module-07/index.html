@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="width">
-    <nav class="conteiner">
+    <header>
+    <nav class="container">
         <a href="">Golden</a>
-        <ul class="conteiner-menu">
+        <ul class="container-menu">
             <li><a href="">Home</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Portfolio</a></li>
@@ -19,11 +19,13 @@
             <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <div class="services">
-        <h2>Services</h2>
-        <p>Proin iaculis purus consequat sem cure.</p>
-    </div>
+    </header>
     <main>
+        <section class="conteiner1">
+            <div class="services">
+                <h2>Services</h2>
+                <p>Proin iaculis purus consequat sem cure.</p>
+            </div>
     <div class="icon-list">
         <ul class="icon">
             <li>
@@ -46,21 +48,22 @@
             </li>
         </ul>
     </div>
-    </main>
-    </div>
-    <footer class="wrappper">
-            <div class="backgraund">
-            <img class="backgraund-img" src="img/Map Image.png" alt="">
-            </div>
-            <div class="contact">
+        </section>
+    <section class="wrapper">
+        <div class="container2">
         <h2>Contact us</h2>
         <p>Proin iaculis purus consequat sem cure.</p>
-        <input class="name" type="name" name="name" placeholder="Your Name *">
-        <input class="email" type="mail" name="email" placeholder="Your E-mail *">
-        <input class="subject" type="text" name="subject" placeholder="Subject">
-        <textarea class="your-message" name="body" rows="5" cols="45" placeholder="Your Message *"></textarea>
-        <input class="send-message" type="submit" value="Send Message" id="send_mail">
-        </div>
-    </footer>
+    <form class="profile-form" action="#">
+            <div class="profile">
+        <input class="name" type="name" name="name" placeholder="Your Name *" autofocus required>
+        <input class="email" type="email" name="email" placeholder="Your E-mail *" required>
+        <input class="subject" type="text" name="subject" placeholder="Subject" >
+           </div>
+        <textarea class="your-message" name="text" rows="5" cols="45" placeholder="Your Message *" required></textarea>
+        <button class="send-message" type="submit" value="Send Message" id="send_mail">Send Message</button>
+    </form>
+    </div>
+    </section>
+</main>
 </body>
 </html>

@@ -2,30 +2,59 @@ body{
     margin: 0 auto;
     padding: 0;
 }
-.width{
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+         url('../fonts/montserrat-v14-latin-600.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin-600.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'),
+         url('../fonts/permanent-marker-v9-latin-regular.woff2') format('woff2'),
+         url('../fonts/permanent-marker-v9-latin-regular.woff') format('woff'); 
 }
-.conteiner{
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-slab-v10-latin-regular.woff2') format('woff2'),
+         url('../fonts/roboto-slab-v10-latin-regular.woff') format('woff');
+  }
+.container{
     display: flex;
     justify-content: space-between;
     padding-top: 46px;
     padding-bottom: 128px;
+    width: 940px;
+    margin: 0 auto;
 }
-.conteiner a{
+.container a{
     font-size: 26px;
-    font-family: "Myriad Pro";
+    font-family: "Permanent Marker";
     text-decoration: none;
     color: #fed136;
 }
-.conteiner-menu{
+.container-menu{
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.conteiner-menu a{
+.container-menu a{
     font-size: 14px;
     font-family: "Montserrat";
     text-decoration: none;
@@ -33,14 +62,18 @@ body{
     color: #222222;
     vertical-align: sub;
 }
-.conteiner-menu li{
+.container-menu li{
     margin-right: 42px;
 }
-.conteiner-menu li:last-child{
+.container-menu li:last-child{
     margin-right: 0;
 }
-.conteiner-menu a:hover{
+.container-menu a:hover{
     color: #fed136;
+}
+.conteiner1{
+    width: 940px;
+    margin: 0 auto;
 }
 .services{
     text-align: center;
@@ -48,7 +81,7 @@ body{
 }
 .services h2{
     font-size: 40px;
-    font-family: "Myriad Pro";
+    font-family: "Permanent Marker";
     color: rgb(34, 34, 34);
     text-transform: uppercase;
     margin: 0;
@@ -56,7 +89,7 @@ body{
 }
 .services p{
     font-size: 16px;
-    font-family: "Myriad Pro";
+    font-family: "Permanent Marker";
     color: #777777;
     margin: 0;
     line-height: 40px;
@@ -76,7 +109,8 @@ body{
     padding: 0;
 }
 .icon li{
-    margin-right: 105px;
+    margin-right: 35px;
+    width: 290px;
 }
 .icon li:last-child{
     margin-right: 0;
@@ -93,12 +127,12 @@ body{
     height: 38px;
     bottom: 130px;
     padding: 14px;
-    left: 90px;
+    left: 110px;
 }
 .icon2::before{
     content: '';
     position: absolute;
-    background-image: url(../img/icon2.png);
+    background-image: url(../img/Icon2.png);
     background-repeat: no-repeat;
     border: 3px solid #fed136;
     background-position: center;
@@ -112,7 +146,7 @@ body{
 .icon3::before{
     content: '';
     position: absolute;
-    background-image: url(../img/icon3.png);
+    background-image: url(../img/Icon3.png);
     background-repeat: no-repeat;
     border: 3px solid #fed136;
     background-position: center;
@@ -121,7 +155,7 @@ body{
     height: 38px;
     bottom: 130px;
     padding: 14px;
-    left: 780px;
+    left: 750px;
 }
 .icon h4{
     font-size: 18px;
@@ -134,45 +168,47 @@ body{
 }
 .icon p{
     font-size: 14px;
-    font-family: "RobotoSlab";
+    font-family: "Roboto Slab";
     color: rgb(119, 119, 119);
     text-align: center;
     margin: 0;
 }
-.backgraund{
-    position: relative;
+.wrapper{
+    background-image: url(../img/MapImage.png);
+    background-repeat: no-repeat;
+    background-position: 100% 88%;
     background-color: black;
-    width: 100%;
-    height: 678px;
+    height: 676px;
 }
-.backgraund-img{
-    position: absolute;
-    height: 100%;
-    text-align: left;
-    top: 120px;
-    left: 1060px;
-    width: 620px;
-    height: 538px;
+.container2{
+    width: 940px;
+    margin: 0 auto;
 }
-.contact{
-    padding-bottom: 10px;
-}
-.contact h2{
+.wrapper h2{
     font-size: 40px;
-    font-family: "Myriad Pro";
+    font-family: "Permanent Marker";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    position: absolute;
-    top: 750px;
-    left: 730px;
+    text-align: center;
+    padding-top: 114px;
+    margin: 0;
 }
-.contact p{
+.wrapper p{
     font-size: 16px;
-    font-family: "Myriad Pro";
+    font-family: "Permanent Marker";
     color: rgb(119, 119, 119);
-    position: absolute;
-    top: 830px;
-    left: 730px;
+    text-align: center;
+    margin: 0;
+}
+.profile-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 50px;
 }
 .name{
     font-size: 14px;
@@ -185,11 +221,8 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
     width: 454px;
     height: 50px;
-    top: 930px;
-    left: 370px;
 }
 .email{
     font-size: 14px;
@@ -202,11 +235,9 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
     width: 454px;
     height: 50px;
-    top: 1020px;
-    left: 370px;
+    margin-top: 30px;
 }
 .subject{
     font-size: 14px;
@@ -219,13 +250,13 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
     width: 454px;
     height: 50px;
-    top: 1110px;
-    left: 370px;
+    margin-top: 30px;
 }
 .your-message{
+    display: flex;
+    justify-content: end;
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(187, 187, 187);
@@ -236,11 +267,10 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    width: 450px;
-    height: 226px;
-    top: 930px;
-    left: 864px;
+    width: 446px;
+    height: 218px;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 .send-message{
     font-size: 18px;
@@ -254,11 +284,15 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 3px;
     background-color: rgb(254, 209, 54);
-    position: absolute;
     width: 240px;
     height: 66px;
-    top: 1200px;
-    left: 744px;
+    margin-top: 30px;
+    margin-left: 350px;
+
 }
-  
-  
+input:valid{
+    outline: 1px solid #008000;
+}
+input:invalid{
+    outline: 1px solid #ff0000;
+}

@@ -100,14 +100,6 @@ body{
     margin: 0;
     padding-bottom: 122px;
 }
-.icon{
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 .div{
     margin-right: 35px;
     width: 290px;
@@ -144,7 +136,7 @@ body{
     height: 60px;
     margin: 0 auto;
 }
-.icon h4{
+.icon-list h4{
     font-size: 18px;
     font-family: "Montserrat";
     color: rgb(34, 34, 34);
@@ -153,7 +145,7 @@ body{
     margin: 0;
     line-height: 50px;
 }
-.icon p{
+.icon-list p{
     font-size: 14px;
     font-family: "Roboto Slab";
     color: rgb(119, 119, 119);
@@ -181,7 +173,8 @@ body{
     font-family: "Permanent Marker";
     color: rgb(119, 119, 119);
     text-align: center;
-    margin: 0;
+    margin-bottom: 80px;
+
 }
 .profile-form{
     display: flex;
@@ -197,7 +190,7 @@ body{
 .name{
     font-size: 14px;
     font-family: "Montserrat";
-    color: rgb(187, 187, 187);
+    color: rgb(74, 73, 73);
     font-weight: bold;
     text-transform: uppercase;
     border-style: solid;
@@ -205,13 +198,14 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 435px;
     height: 50px;
+    padding-left: 20px;
 }
 .email{
     font-size: 14px;
     font-family: "Montserrat";
-    color: rgb(187, 187, 187);
+    color: rgb(74, 73, 73);
     font-weight: bold;
     text-transform: uppercase;
     border-style: solid;
@@ -219,14 +213,15 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 435px;
     height: 50px;
     margin-top: 30px;
+    padding-left: 20px;
 }
 .subject{
     font-size: 14px;
     font-family: "Montserrat";
-    color: rgb(187, 187, 187);
+    color: rgb(74, 73, 73);
     font-weight: bold;
     text-transform: uppercase;
     border-style: solid;
@@ -234,9 +229,10 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 435px;
     height: 50px;
     margin-top: 30px;
+    padding-left: 20px;
 }
 .your-message{
     display: flex;
@@ -244,7 +240,7 @@ body{
     justify-content: end;
     font-size: 14px;
     font-family: "Montserrat";
-    color: rgb(187, 187, 187);
+    color: rgb(74, 73, 73);
     font-weight: bold;
     text-transform: uppercase;
     border-style: solid;
@@ -252,8 +248,10 @@ body{
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    height: 218px;
-    width: calc(50% - 15px);
+    height: 198px;
+    width: calc(50% - 45px);
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .send-message{
     font-size: 18px;
@@ -278,4 +276,12 @@ body{
 }
 .focus:focus:invalid {
     outline: 1px solid #ff0000;
+}
+input::placeholder{
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+}
+textarea::placeholder{
+    color: rgb(187, 187, 187);
+    font-size: 14px;
 }

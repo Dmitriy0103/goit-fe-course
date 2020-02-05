@@ -254,6 +254,8 @@ body{
     padding-left: 20px;
 }
 .send-message{
+    display: block;
+    margin: 0 auto;
     font-size: 18px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
@@ -268,7 +270,6 @@ body{
     width: 240px;
     height: 66px;
     margin-top: 30px;
-    margin-left: 350px;
 
 }
 .focus:focus:valid {

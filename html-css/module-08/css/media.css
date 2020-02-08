@@ -1,0 +1,264 @@
+@media (min-width: 768px){
+
+    .container{
+        width: 768px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .substrate{
+        background-color: rgb(26, 25, 21);
+        width: 768px;
+        height: 700px;
+    }
+    .img{
+        background-image: url(../img/VectorSmartObject1.png);
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 700px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 672px;
+        margin: 0 auto 162px;
+    }
+    .menu-navigation{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .menu-navigation li{
+        list-style-type: none;
+        padding-top: 52px;
+    }
+    .log-in{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-decoration: none;
+        border: 2px solid rgba(255, 255, 255, 0);
+        padding: 12px 20px;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+    .log-in:hover{
+        border: 2px solid rgb(255, 255, 255);
+        padding: 12px 20px;
+        border-radius: 20px;
+    }
+    .Sign-up{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-decoration: none;
+        border: 2px solid rgba(255, 255, 255, 0);
+        padding: 12px 20px;
+        border-radius: 20px;
+    }
+    .Sign-up:hover{
+        border: 2px solid rgb(255, 255, 255);
+        padding: 12px 20px;
+        border-radius: 20px;
+    }
+    .logo{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-top: 0;
+        padding-top: 48px;
+    }
+    .container2{
+        margin-top: 0;
+    }
+    .container2 h2{
+        font-size: 52px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 auto 42px;
+    }
+    .container2 p{
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 25px;
+        width: 768px;
+        margin: 0 auto 40px;
+    }
+    .container2 button{
+        display: block;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 78, 80);
+        border-radius: 20px;
+        background-color: rgb(255, 78, 80);
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 50px;
+        margin: 0 auto;
+    }
+    .wrapper h3{
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(51, 51, 51);
+        font-weight: bold;
+        width: 768px;
+        margin: 0 auto 20px;
+    }
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 492px;
+        margin: 0 auto;
+    }
+    .colums{
+        width: 220px;
+        margin: 0 0 20px;
+        position: relative;
+    }
+    .reverse{
+        display: contents;
+    }
+}
+
+@media (min-width: 1440px){
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .substrate{
+        background-color: rgb(26, 25, 21);
+        width: 1440px;
+        height: 700px;
+    }
+    .img{
+        background-image: url(../img/VectorSmartObject2.png);
+        background-repeat: no-repeat;
+        width: 1440px;
+        height: 700px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 942px;
+        margin: 0 auto 162px;
+    }
+    .menu-navigation{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .menu-navigation li{
+        list-style-type: none;
+        padding-top: 52px;
+    }
+    .log-in{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-decoration: none;
+        border: 2px solid rgba(255, 255, 255, 0);
+        padding: 12px 20px;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+    .log-in:hover{
+        border: 2px solid rgb(255, 255, 255);
+        padding: 12px 20px;
+        border-radius: 20px;
+    }
+    .Sign-up{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-decoration: none;
+        border: 2px solid rgba(255, 255, 255, 0);
+        padding: 12px 20px;
+        border-radius: 20px;
+    }
+    .Sign-up:hover{
+        border: 2px solid rgb(255, 255, 255);
+        padding: 12px 20px;
+        border-radius: 20px;
+    }
+    .logo{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-top: 0;
+        padding-top: 48px;
+    }
+    .container2{
+        margin-top: 0;
+    }
+    .container2 h2{
+        font-size: 52px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 auto 42px;
+    }
+    .container2 p{
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 25px;
+        width: 768px;
+        margin: 0 auto 40px;
+    }
+    .container2 button{
+        display: block;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 78, 80);
+        border-radius: 20px;
+        background-color: rgb(255, 78, 80);
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 50px;
+        margin: 0 auto;
+    }
+    .wrapper h3{
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(51, 51, 51);
+        font-weight: bold;
+        width: 768px;
+        margin: 0 auto 20px;
+    }
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 942px;
+        margin: 0 auto;
+    }
+    .colums{
+        width: 220px;
+        margin: 0 0 20px;
+        position: relative;
+    }
+    .reverse{
+        display: contents;
+    }
+}

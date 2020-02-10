@@ -6,7 +6,6 @@
     .container{
         width: 768px;
         margin: 0 auto;
-        padding-bottom: 50px;
     }
     .substrate{
         background-color: rgb(26, 25, 21);
@@ -116,7 +115,7 @@
         color: rgb(51, 51, 51);
         font-weight: bold;
         width: 768px;
-        margin: 0 auto 20px;
+        margin: 50px auto 20px;
     }
     .wrapper{
         display: flex;
@@ -143,7 +142,6 @@
     .container{
         width: 1440px;
         margin: 0 auto;
-        padding-bottom: 50px;
     }
     .substrate{
         background-color: rgb(26, 25, 21);
@@ -254,7 +252,7 @@
         color: rgb(51, 51, 51);
         font-weight: bold;
         width: 768px;
-        margin: 0 auto 20px;
+        margin: 50px auto 20px;
     }
     .wrapper{
         display: flex;

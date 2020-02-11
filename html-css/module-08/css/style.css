@@ -122,7 +122,7 @@ body{
     margin: 0 auto 20px;
     position: relative;
 }
-.colums img{
+.img-radius img{
     background-color: rgb(251, 251, 251);
     border: 1px solid rgb(251, 251, 251) ;
     border-radius: 50%;
@@ -140,7 +140,7 @@ body{
     background-position: center;
     padding: 16px;
     position: absolute;
-    transform: translate(27px, -100px);
+    transform: translate(-30px, 90px);
 }
 .icon1::after{
     content: '';
@@ -153,7 +153,7 @@ body{
     background-position: center;
     padding: 16px;
     position: absolute;
-    transform: translate(27px, -136px);
+    transform: translate(-30px, 90px);
 }
 .icon2::after{
     content: '';
@@ -166,7 +166,7 @@ body{
     background-position: center;
     padding: 16px;
     position: absolute;
-    transform: translate(27px, -100px);
+    transform: translate(-30px, 90px);
 }
 .icon3::after{
     content: '';
@@ -179,7 +179,7 @@ body{
     background-position: center;
     padding: 16px;
     position: absolute;
-    transform: translate(27px, -100px);
+    transform: translate(-30px, 90px);
 }
 .colums h5{
     font-size: 16px;

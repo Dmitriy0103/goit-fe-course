@@ -4,7 +4,7 @@
         padding: 0;
     }
     .container{
-        width: 768px;
+        width: 748px;
         margin: 0 auto;
     }
     .substrate{
@@ -134,13 +134,13 @@
     }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 980px){
     body{
         margin: 0;
         padding: 0;
     }
     .container{
-        width: 1440px;
+        width: 940px;
         margin: 0 auto;
     }
     .substrate{

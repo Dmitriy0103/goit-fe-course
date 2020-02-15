@@ -19,6 +19,9 @@
         width: 210px;
         margin: 0 auto 162px;
     }
+    .colums p{
+        margin-bottom: 50px;
+    }
     .log-in{
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
@@ -78,7 +81,7 @@
         width: 410px;
         margin: 0 auto 40px;
     }
-    .col-md-8 button{
+    .button{
         display: block;
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
@@ -87,8 +90,9 @@
         border-radius: 20px;
         background-color: rgb(255, 78, 80);
         font-weight: bold;
+        cursor: pointer;
         text-align: center;
-        padding: 15px 50px;
+        padding: 15px 25px;
         margin: 0 auto;
     }
     .col-md-12 h3{
@@ -97,7 +101,7 @@
         color: rgb(51, 51, 51);
         font-weight: bold;
         width: 500px;
-        margin: 50px auto 20px;
+        margin: 50px auto 40px;
     }
     .wrapper{
        padding-bottom: 50px;
@@ -105,6 +109,20 @@
     .colums{
         width: 220px;
         position: relative;
+    }
+    .button1{
+        display: block;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 78, 80);
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid rgb(255, 78, 80);
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        padding: 12px 30px;
+        margin: 0 auto;
     }
 }
 
@@ -189,7 +207,7 @@
         width: 442px;
         margin: 0 auto 40px;
     }
-    .col-lg-6 button{
+    .button{
         display: block;
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
@@ -198,17 +216,18 @@
         border-radius: 20px;
         background-color: rgb(255, 78, 80);
         font-weight: bold;
+        cursor: pointer;
         text-align: center;
         padding: 15px 50px;
-        margin: 0 auto;
+        margin: 10 auto 0;
     }
     .wrapper h3{
         font-size: 22px;
         font-family: 'Montserrat', sans-serif;
         color: rgb(51, 51, 51);
         font-weight: bold;
-        width: 768px;
-        margin: 50px auto 20px;
+        width: 690px;
+        margin: 50px auto 40px;
     }
     .wrapper{
         margin: 0 auto 50px;

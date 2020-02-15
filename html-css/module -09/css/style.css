@@ -78,7 +78,7 @@ body{
     width: 220px;
     margin: 0 auto 10px;
 }
-.col-12 button{
+.button{
     display: block;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -87,6 +87,7 @@ body{
     border-radius: 20px;
     background-color: rgb(255, 78, 80);
     font-weight: bold;
+    cursor: pointer;
     text-align: center;
     padding: 15px 50px;
     margin: 0 auto;
@@ -175,8 +176,8 @@ body{
     font-weight: bold;
     line-height: 30px;
     text-align: center;
-    margin: 0;
-}
+    margin: 10px 0 15px;
+} 
 .colums p{ 
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -185,7 +186,7 @@ body{
     text-align: center;
     margin: 0;
 }
-.button{
+.button1{
     display: block;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -194,6 +195,7 @@ body{
     text-align: center;
     border: 2px solid rgb(255, 78, 80);
     border-radius: 20px;
+    cursor: pointer;
     background-color: rgb(255, 255, 255);
     padding: 12px 74px;
     margin: 0 auto;

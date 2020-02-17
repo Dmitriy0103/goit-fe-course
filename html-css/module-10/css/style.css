@@ -1,0 +1,390 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    position: relative;
+    background-image: url(../img/Layer15@x2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+.gradient{
+    background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo a{
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    margin-right: 42px;
+    list-style-type: none;
+}
+.navigation li:last-child{
+    margin-right: 0;
+}
+.navigation a{
+    position: relative;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(252, 227, 138, 0);
+    width: 50px;
+    height: 3px;
+    top: 25px;
+    left: 0;
+}
+.navigation a:hover{
+    color: rgb(252, 227, 138);
+}
+.navigation a:hover::after{
+    background-color: rgba(252, 227, 138, 1);
+}
+.wrapper p{
+    font-size: 72px;
+    font-family: "KaushanScript";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 168px auto 42px;
+}
+.wrapper h2{
+    font-size: 150px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 142px;
+    margin: 0 auto 124px;
+}
+.wrapper button{
+    display: block;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    width: 164px;
+    height: 44px;
+    margin: 0 auto;
+}
+.wrapper1 p{
+    font-size: 24px;
+    font-family: "KaushanScript";
+    color: rgb(51, 51, 51);
+    text-align: center;
+    margin: 46px auto 26px;
+}
+.wrapper1 h3{
+    position: relative;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+.wrapper1 h3::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(243, 129, 129);
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    top: 52px;
+    left: 572px;
+}
+.colums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 108px 0 94px;
+}
+.colums1{
+    position: relative;
+    width: 380px;
+}
+.colums1:nth-child(-n + 3) {
+    margin-bottom: 104px;
+}
+.width-colums{
+    width: 300px;
+    padding-left: 80px;
+}
+.colums1 h4{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    text-align: left;
+}
+.colums1 p{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+}
+.icon::after{
+    content: '';
+    position: absolute;
+    background-image:url(../img/ALARM.svg);
+    background-repeat: no-repeat;
+    color: rgb(149, 225, 211);
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 20px;
+}
+.icon1::after{
+    content: '';
+    position: absolute;
+    background-image:url(../img/LINEGRAPH.svg);
+    background-repeat: no-repeat;
+    color: rgb(149, 225, 211);
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 20px;
+}
+.icon2::after{
+    content: '';
+    position: absolute;
+    background-image:url(../img/icon2.svg);
+    background-repeat: no-repeat;
+    color: rgb(149, 225, 211);
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 20px;
+}
+.icon3::after{
+    content: '';
+    position: absolute;
+    background-image:url(../img/icon3.svg);
+    background-repeat: no-repeat;
+    color: rgb(149, 225, 211);
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 20px;
+}
+.icon4::after{
+    content: '';
+    position: absolute;
+    background-image:url(../img/icon4.svg);
+    background-repeat: no-repeat;
+    color: rgb(149, 225, 211);
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 20px;
+}
+.icon5::after{
+    content: '';
+    position: absolute;
+    background-image:url(../img/icone5.svg);
+    background-repeat: no-repeat;
+    color: rgb(149, 225, 211);
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 20px;
+}
+.lorem p{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    width: 980px;
+    text-align: center;
+    margin: 94px auto 98px;
+}
+.colums-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+.substrate{
+    position: relative;
+    background-color: rgb(149, 225, 211);
+    width: 380px;
+    height: 470px;
+    z-index: 1;
+}
+.img-gradient{
+    position: absolute;
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    width: 380px;
+    height: 470px;
+    top: 0;
+    opacity: 0;
+    z-index: 2;
+}
+.facebook{
+    position: absolute;
+    background-image: url(../img/facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: #fce38a;
+    color: rgb(243, 129, 129);
+    width: 56px;
+    height: 56px;
+    top: 208px;
+    left: 78px;
+}
+.facebook:hover{
+    color: rgb(243, 129, 129);
+    background-color: rgb(255, 255, 255);
+    stroke: rgb(255, 255, 255) ;
+    color: #000000;
+}
+.twitter{
+    position: absolute;
+    background-image: url(../img/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: #fce38a;
+    width: 56px;
+    height: 56px;
+    top: 208px;
+    left: 135px;
+}
+.pinterest{
+    position: absolute;
+    background-image: url(../img/pinterest.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: #fce38a;
+    color: rgb(243, 129, 129);
+    width: 56px;
+    height: 56px;
+    top: 208px;
+    left: 192px;
+}
+.instagram{
+    position: absolute;
+    background-image: url(../img/instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: #fce38a;
+    color: rgb(243, 129, 129);
+    width: 56px;
+    height: 56px;
+    top: 208px;
+    left: 249px;
+}
+.img-gradient:hover{
+    transform: translate(-10px, -10px);
+    opacity: 0.9;
+}
+.substrate h5{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0 15px;
+}
+.substrate p{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+.footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+.footer p{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+}
+.footer a{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(243, 129, 129);
+    text-decoration: none;
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    background-color: rgb(229, 229, 229);
+    position: absolute;
+    width: 1200px;
+    height: 1px;
+}
+.form{
+    margin-top: 10px;
+}
+.form input{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(48, 45, 45,);
+    border: 1px solid rgb(231, 231, 231);
+    cursor: pointer;
+    text-align: left;
+    width: 222px;
+    height: 37px;
+    padding: 0 12px;
+}
+input::placeholder{
+    color: rgb(214, 214, 214);
+    font-style: italic;
+}
+.form button{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    background-color: rgb(149, 225, 211);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    padding: 0;
+}  

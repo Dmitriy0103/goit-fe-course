@@ -105,7 +105,7 @@ body{
     padding-bottom: 50px;
 }
 .colums{
-    width: 220px;
+    width: 240px;
     text-align: center;
     margin: 0 auto 20px;
     position: relative;
@@ -169,7 +169,7 @@ body{
     position: absolute;
     transform: translate(-30px, 90px);
 }
-.colums h5{
+.col h5{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(51, 51, 51);
@@ -178,12 +178,13 @@ body{
     text-align: center;
     margin: 10px 0 15px;
 } 
-.colums p{ 
+.col p{ 
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: rgb(143, 143, 143);
     line-height: 18px;
     text-align: center;
+    width: 212px;
     margin: 0;
 }
 .button1{

@@ -311,10 +311,10 @@ body{
     top: 208px;
     left: 249px;
 }
-.substrate img:hover{
+.substrate:hover img {
     transform: translate(-10px, -10px);
 }
-.img-gradient:hover{
+.substrate:hover .img-gradient {
     transform: translate(-10px, -10px);
     opacity: 0.9;
 }
@@ -362,6 +362,7 @@ body{
 }
 .form{
     margin-top: 10px;
+    font-size: 0;
 }
 .form input{
     font-size: 15px;

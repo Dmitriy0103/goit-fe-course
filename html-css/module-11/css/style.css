@@ -35,6 +35,7 @@ body{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0;
 }
 .menu-navigation__item{
     margin-right: 42px;
@@ -50,6 +51,12 @@ body{
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-decoration: none;
+}
+.menu-navigation__button{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
 }
 .menu-navigation__svg{
     width: 18px;
@@ -92,19 +99,22 @@ body{
     line-height: 142px;
     margin: 0 auto 124px;
 }
-.page-div__button{
+.page-div__link{
+    text-decoration: none;
+}
+.page-div__headline{
     display: block;
     font-size: 14px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
     border: 3px solid rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0);
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
-    width: 164px;
-    height: 44px;
+    width: 154px;
+    height: 34px;
+    line-height: 35px;
     margin: 0 auto;
 }
 .page-main__discription{
@@ -115,14 +125,12 @@ body{
     margin: 46px auto 26px;
 }
 .page-main__headline{
+    display: block;
     position: relative;
     font-size: 30px;
     font-family: 'Montserrat';
-    color: rgb(51, 51, 51);
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
-    margin: 0 auto;
 }
 .page-main__headline::after{
     content: '';
@@ -153,10 +161,9 @@ body{
     margin-bottom: 104px;
 }
 .section-colums__width{
-    width: 300px;
     padding-left: 80px;
 }
-.colums__title{
+.section-colums__title{
     font-size: 14px;
     font-family: 'Montserrat';
     color: rgb(51, 51, 51);
@@ -164,7 +171,7 @@ body{
     margin: 0 0 20px;
     text-align: left;
 }
-.colums__text{
+.section-colums__text{
     font-size: 15px;
     font-family: 'Roboto';
     color: rgb(153, 153, 153);
@@ -180,7 +187,7 @@ body{
     background-size: cover;
     background-position: center;
     color: rgb(149, 225, 211);
-    width: 32px;
+    width: 34px;
     height: 32px;
     top: 0;
     left: 20px;
@@ -193,8 +200,8 @@ body{
     background-size: cover;
     background-position: center;
     color: rgb(149, 225, 211);
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     top: 0;
     left: 20px;
 }
@@ -206,8 +213,8 @@ body{
     background-size: cover;
     background-position: center;
     color: rgb(149, 225, 211);
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 34px;
     top: 0;
     left: 20px;
 }
@@ -219,7 +226,7 @@ body{
     background-size: cover;
     background-position: center;
     color: rgb(149, 225, 211);
-    width: 32px;
+    width: 34px;
     height: 32px;
     top: 0;
     left: 20px;
@@ -232,8 +239,8 @@ body{
     background-size: cover;
     background-position: center;
     color: rgb(149, 225, 211);
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     top: 0;
     left: 20px;
 }
@@ -245,7 +252,7 @@ body{
     background-size: cover;
     background-position: center;
     color: rgb(149, 225, 211);
-    width: 32px;
+    width: 33px;
     height: 32px;
     top: 0;
     left: 20px;
@@ -254,7 +261,7 @@ body{
     font-size: 15px;
     font-family: 'Roboto';
     color: rgb(153, 153, 153);
-    width: 980px;
+    max-width: 995px;
     text-align: center;
     margin: 94px auto 98px;
 }
@@ -267,7 +274,7 @@ body{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 180px;
+    margin-bottom: 86px;
 }
 .teem-block{
     position: relative;
@@ -278,7 +285,7 @@ body{
 }
 .teem-block__gradient{
     position: absolute;
-    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
     width: 380px;
     height: 470px;
     top: 0;
@@ -290,7 +297,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
-    background-color: rgb(252, 227, 138);
+    background-color: rgba(252, 227, 138, 1);
     fill: rgb(243, 129, 129);
     padding: 13px;
     width: 30px;
@@ -353,6 +360,16 @@ body{
     background-color: rgb(243, 129, 129);
     fill: rgb(255, 255, 255);
 }
+.teem-block img{
+    transition: transform 500ms linear;
+}
+.teem-block .teem-block__gradient{
+    transition: transform 500ms linear, opacity 500ms linear;
+}
+.icon-instagram:hover{
+    background-color: rgba(243, 129, 129,0.9);
+    fill: rgb(255, 255, 255);
+}
 .teem-block:hover .teem-block__photo {
     -webkit-transform: translate(-10px, -10px);
         -ms-transform: translate(-10px, -10px);
@@ -362,7 +379,10 @@ body{
     -webkit-transform: translate(-10px, -10px);
         -ms-transform: translate(-10px, -10px);
             transform: translate(-10px, -10px);
-    opacity: 0.9;
+    opacity: 1;
+}
+.teem-block:hover .teem-block__gradient .icon-twitter{
+opacity: 1;
 }
 .teem-block__title{
     font-size: 14px;

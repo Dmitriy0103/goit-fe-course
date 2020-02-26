@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,71 +20,70 @@
               <li class="menu-navigation__item"><a class="menu-navigation__link" href="#">Work</a></li>
               <li class="menu-navigation__item"><a class="menu-navigation__link" href="#">Blog</a></li>
               <li class="menu-navigation__item"><a class="menu-navigation__link" href="#">Contact</a></li>
-              <li class="menu-navigation__item"><a class="menu-navigation__link" href="#">
+              <li class="menu-navigation__item"><button class="menu-navigation__button" >
                   <svg class="menu-navigation__svg">
                 <use xlink:href="img/sprite.svg#cart"></use>
-              </svg></a></li>
-              <li class="menu-navigation__item"><a class="menu-navigation__link" href="#">
+              </svg></button></li>
+              <li class="menu-navigation__item"><button class="menu-navigation__button">
                   <svg class="menu-navigation__svg">
                 <use xlink:href="img/sprite.svg#search"></use>
-              </svg></a></li>
+              </svg></button></li>
           </ul>
           </div>
           <div class="page-div">
               <p class="page-div__paragraph">Creative Template</p>
               <h2 class="page-div__heading">Welcome<br>to MoGo</h2>
-              <button class="page-div__button">Learn more</button>
+              <a class="page-div__link" href="#"><p class="page-div__headline">Learn more</p></a>
           </div>
           </div>
     </header>
 <main class="page-main container">
-        <p class="page-main__discription">We work with</p>
-        <h3 class="page-main__headline">Amazing Services</h3>
+    <h3 class="page-main__discription">We work with 
+        <span class="page-main__headline">Amazing Services
+        </span></h3>
     <div class="colums">
     <section class="section-colums icon-clock">
         <div class="section-colums__width">
-        <h4 class="colums__title">Photography</h4>
-        <p class="colums__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h4 class="section-colums__title">Photography</h4>
+        <p class="section-colums__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         </div>
     </section>
     <section class="section-colums icon-dash">
         <div class="section-colums__width">
-        <h4 class="colums__title">Web Design</h4>
-        <p class="colums__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h4 class="section-colums__title">Web Design</h4>
+        <p class="section-colums__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
     </div>
     </section>
     <section class="section-colums icon-computer">
         <div class="section-colums__width">
-        <h4 class="colums__title">Creativity</h4>
-        <p class="colums__text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h4 class="section-colums__title">Creativity</h4>
+        <p class="section-colums__text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
     </div>
     </section>
     <section class="section-colums icon-book">
         <div class="section-colums__width">
-        <h4 class="colums__title">Seo</h4>
-        <p class="colums__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+        <h4 class="section-colums__title">Seo</h4>
+        <p class="section-colums__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
     </div>
     </section>
     <section class="section-colums icon-house">
         <div class="section-colums__width">
-        <h4 class="colums__title">Css/Html</h4>
-        <p class="colums__text">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+        <h4 class="section-colums__title">Css/Html</h4>
+        <p class="section-colums__text">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
     </div>
     </section>
     <section class="section-colums icon-square">
         <div class="section-colums__width">
-        <h4 class="colums__title">Digital</h4>
-        <p class="colums__text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h4 class="section-colums__title">Digital</h4>
+        <p class="section-colums__text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
     </div>
     </section>
     </div>
-    <div class="container">
-            <p class="page-main__discription">Who we are</p>
-            <h3 class="page-main__headline">Meet our team</h3>
-        <div class="page-main__text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
+    <div class="page-main container">
+        <h3 class="page-main__discription">Who we are<span class="page-main__headline">Meet our team</span></h3>
+            <p class="page-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         <div class="teem">
+            <div class="wrapper-teem">
         <div class="teem-block">
             <img class="teem-block__photo" srcset="img/photo1.png 380w, img/photo1@2x.png 760w"
             sizes="380px"
@@ -103,9 +102,11 @@
                     <use xlink:href="img/sprite.svg#instagram"></use>
                   </svg></a>
             </div>
+            </div>
             <h5 class="teem-block__title">Matthew Dix</h5>
             <p class="teem-block__occupation">Graphic Design</p>
         </div>
+        <div class="wrapper-teem">
         <div class="teem-block">
             <img class="teem-block__photo" srcset="img/photo2.png 380w, img/photo2@2x.png 760w"
             sizes="380px"
@@ -124,9 +125,11 @@
                     <use xlink:href="img/sprite.svg#instagram"></use>
                   </svg></a>
             </div>
-            <h5 class="teem-block__title">Christopher Campbell</h5>
+        </div>
+        <h5 class="teem-block__title">Christopher Campbell</h5>
             <p class="teem-block__occupation">Branding/UX design</p>
         </div>
+        <div class="wrapper-teem">
         <div class="teem-block">
             <img class="teem-block__photo" srcset="img/photo3.png 380w, img/photo3@2x.png 760w"
             sizes="380px"
@@ -144,6 +147,7 @@
                 <a href=""><svg class="teem-block__svg icon-instagram">
                     <use xlink:href="img/sprite.svg#instagram"></use>
                   </svg></a>
+            </div>
             </div>
             <h5 class="teem-block__title">Michael Fertig</h5>
             <p class="teem-block__occupation">Developer</p>

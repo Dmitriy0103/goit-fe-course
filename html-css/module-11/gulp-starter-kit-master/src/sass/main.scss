@@ -1,0 +1,22 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'helpers/variables.scss';
+@import 'normalize.scss';
+@import 'base.scss';
+
+@import 'components/banner.scss';
+@import 'components/container.scss';
+@import 'components/site-logo.scss';
+@import 'components/site-navigation.scss';
+@import 'components/menu-navigation.scss';
+@import 'components/page-div.scss';
+@import 'components/page-main.scss';
+@import 'components/colums.scss';
+@import 'components/section-colums.scss';
+@import 'components/teem.scss';
+@import 'components/wrapper-teem.scss';
+@import 'components/teem-block.scss';
+@import 'components/page-footer.scss';
+@import 'components/media.scss';

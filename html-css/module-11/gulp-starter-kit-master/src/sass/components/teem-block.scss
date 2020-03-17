@@ -1,0 +1,127 @@
+.teem-block{
+    position: relative;
+    background-color: $icon-color;
+    z-index: 1;
+}
+.teem-block img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.teem-block__gradient{
+    position: absolute;
+    background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    z-index: 2;
+}
+.icon-facebook{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: rgba(252, 227, 138, 1);
+    fill: $teem-icon-color;
+    padding: 13px;
+    width: 30px;
+    height: 30px;
+    top: 208px;
+    left: 78px;
+
+    &:hover{
+    background-color: $teem-icon-color;
+    fill: $main-color;
+    }
+}
+.icon-twitter{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: $menu-hover-color;
+    fill: $teem-icon-color;
+    padding: 13px;
+    width: 30px;
+    height: 30px;
+    top: 208px;
+    left: 135px;
+
+    &:hover{
+    background-color: $teem-icon-color;
+    fill: $main-color;
+    }
+}
+.icon-pinterest{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: $menu-hover-color;
+    fill: $teem-icon-color;
+    padding: 13px;
+    width: 30px;
+    height: 30px;
+    top: 208px;
+    left: 192px;
+
+    &:hover{
+    background-color: $teem-icon-color;
+    fill: $main-color;
+    }
+}
+.icon-instagram{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: $menu-hover-color;
+    fill: $teem-icon-color;
+    padding: 13px;
+    width: 30px;
+    height: 30px;
+    top: 208px;
+    left: 249px;
+
+    &:hover{
+    background-color: rgba(243, 129, 129,0.9);
+    fill: $main-color;
+    }
+}
+.teem-block img{
+    transition: transform 500ms linear;
+}
+.teem-block .teem-block__gradient{
+    transition: transform 500ms linear, opacity 500ms linear;
+}
+.teem-block:hover .teem-block__photo {
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+}
+.teem-block:hover .teem-block__gradient {
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+    opacity: 1;
+}
+.teem-block:hover .teem-block__gradient .icon-twitter{
+opacity: 1;
+}
+.teem-block__title{
+    font-size: $main-font-size;
+    font-family: $main-font-family;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0 15px;
+}
+.teem-block__occupation{
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: $auxiliary-color;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}

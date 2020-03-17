@@ -1,0 +1,26 @@
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .icon-clock::after{
+        background-image:url(../img/icon@2x.png);
+    }
+    .icon-dash::after{
+        background-image:url(../img/icon1@2x.png);
+    }
+    .icon-computer::after{
+        background-image:url(../img/icon2@2x.png);
+    }
+    .icon-book::after{
+        background-image:url(../img/icon3@2x.png);
+    }
+    .icon-house::after{
+        background-image:url(../img/icon4@2x.png);
+    }
+    .icon-square::after{
+        background-image:url(../img/icon5@2x.png);
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .banner{
+        background-image: -webkit-linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../img/Layer15@2x.jpg);
+    }
+}

@@ -1,0 +1,35 @@
+.page-div__paragraph{
+    font-size: 72px;
+    font-family: 'Kaushan Script';
+    color: $main-color;
+    text-align: center;
+    margin: 168px auto 42px;
+}
+.page-div__heading{
+    font-size: 150px;
+    font-family: $main-font-family;
+    color: $main-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 142px;
+    margin: 0 auto 124px;
+}
+.page-div__link{
+    text-decoration: none;
+}
+.page-div__headline{
+    display: block;
+    font-size: $main-font-size;
+    font-family: $main-font-family;
+    color: $main-color;
+    border: 3px solid $main-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    width: 154px;
+    height: 34px;
+    line-height: 35px;
+    margin: 0 auto;
+}
